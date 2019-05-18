@@ -6,7 +6,7 @@ sudo: false
 
 branches:
   only:
-  - master
+  - gh-pages
 
 cache:
   directories:
@@ -28,4 +28,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: dist/angular-cicdwith-travis-github-pages-demo
   on:
-    branch: master
+    branch: gh-pages
