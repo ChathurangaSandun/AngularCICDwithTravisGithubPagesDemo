@@ -26,6 +26,6 @@ deploy:
   skip_cleanup: true
   keep-history: true
   github_token: $GITHUB_TOKEN
-  local_dir: dist/angular-cicdwith-travis-github-pages-demo
+  local_dir: dist
   on:
     branch: gh-pages
